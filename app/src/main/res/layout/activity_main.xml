@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/btn_addBatObservers"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Add All Bat State Observers" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_orange_light"></LinearLayout>
+
+        <Button
+            android:id="@+id/btn_remAllBatObservers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rem All Bat Observers" />
+
+        <Button
+            android:id="@+id/btn_remBatStateObserv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Rem Bat State Observers" />
+
+        <Button
+            android:id="@+id/btn_remChargingStateObserv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rem Bat Charging State Observers" />
+
+        <Button
+            android:id="@+id/btn_remLevelObserv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rem Bat Level Observers" />
+
+        <Button
+            android:id="@+id/btn_remConcreteObserv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rem Specific Bat Observer" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_orange_light"></LinearLayout>
+
+        <Button
+            android:id="@+id/btn_addDuplicateObserver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/holo_red_light"
+            android:text="Add Duplicate Bat Observer" />
+
+        <Button
+            android:id="@+id/btn_addNonBatteryObserver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            android:text="Add Non Supported Bat Observer" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
